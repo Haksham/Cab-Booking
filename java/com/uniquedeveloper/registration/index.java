@@ -33,7 +33,7 @@ public class index extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 			try (Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/person?allowPublicKeyRetrieval=true&useSSL=false",
-                    "root", "Hot@22spiceups")) {
+                    "root", "your_password")) {
 			PreparedStatement pst = con.prepareStatement("select * from users where location=? and destination=?");
 			pst.setString(1, location);
 			pst.setString(2, destination);
