@@ -35,7 +35,7 @@ public class login extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver");
 			try (Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/online_cab?allowPublicKeyRetrieval=true&useSSL=false",
-                    "root", "Hot@22spiceups")) {
+                    "root", "your_password")) {
 			PreparedStatement pst = con.prepareStatement("select * from users where uname=? and upwd=?");
 			pst.setString(1, uname);
 			pst.setString(2, upwd);
