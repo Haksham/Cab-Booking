@@ -1,6 +1,6 @@
 Hello Everyone,
 
-              this is my repo for java mini project where a cab booking website is created.
+             Java mini project for a cab booking website.
               
 Here "register" folder contain the servlet classes.
 
@@ -12,7 +12,7 @@ Also the jar files are inside the "WEB-INF/lib" folder.
 
 The IDE used is Eclipse and MySQL is used for data base and connector-jar file v.8.0.30.jar.
 
-The server used is apache tomcat v.10.1.18.
+The server used is apache tomcat v.10.1.18.<br>
 
 P.S. I changed the SQL database password for users.
 
